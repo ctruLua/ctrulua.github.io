@@ -1,0 +1,9 @@
+# Site settings
+title: Ctrµlua
+description: "Lua homebrewing for 3ds"
+baseurl: ""
+url: "http://ctrulua.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
