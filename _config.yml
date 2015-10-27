@@ -1,6 +1,6 @@
 # Site settings
-title: Ctrµlua
-description: "Lua homebrewing for 3ds"
+title: ctrµLua
+description: "A Lua parser for 3DS"
 baseurl: ""
 url: "http://ctrulua.github.io"
 

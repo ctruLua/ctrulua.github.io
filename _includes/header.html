@@ -17,6 +17,11 @@
         </svg>
       </a>
       <div class="trigger">
+        <a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        <a class="page-link" href="https://github.com/ctruLua/ctruLua" >GitHub</a>
+        <a class="page-link" href="https://github.com/ctruLua" >Organization</a>
+        <a class="page-link" href="http://thomas99.no-ip.org/ctrulua/latest/html/" >Documentation</a>
+        <a class="page-link" href="http://thomas99.no-ip.org:3000/ctrulua" >Integration</a>
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
